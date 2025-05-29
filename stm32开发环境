@@ -1,0 +1,7 @@
+#stm32开发环境
+MDK5:标准库、HAL库。编译器比较原始的
+STM32CubeMX+MDK5的开发方式
+STM32CubeIDE：芯片以及自己的编译器
+
+但MDK5支持所有ARM芯片，STM32CubeIDE只支持ST家的芯片
+
