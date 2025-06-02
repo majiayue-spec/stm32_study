@@ -1,0 +1,24 @@
+#课程目标
+1.创建工程、编写代码、编译下载、调试程序
+2.stm32各外设驱动的配置
+
+
+#开发环境搭建
+Hal库
+MDK5+MX    支持所有ARM芯片
+IDE集成了编译器的功能
+
+
+#新建第一个工程
+控制板载LED闪烁。需要开发板+STLINK仿真器
+根据开发板的原理图，配置引脚  e.g.GPIO_Output
+配置GPIO\RCC配置时钟 72MHz\配置调试SYS
+
+
+Help->Embedded Software Package Manager芯片的软件配置包
+点击小齿轮->生成代码
+看一下main.c文件。Hal库初始化，时钟配置。左键ctrl看函数原型。在注释之间写用户代码。
+小锤子->编译下载
+
+硬件：板子与PC端之间stlink
+可以另外给板子供电
